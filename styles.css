@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #FF6F00; /* Orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #FF6F00; /* Orange */
+    font-size: 1.8em;
+}
+
+#sommaire ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sommaire ul li a {
+    color: #0277BD; /* Blue */
+    text-decoration: none;
+}
+
+#sommaire ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #FF6F00; /* Orange */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
